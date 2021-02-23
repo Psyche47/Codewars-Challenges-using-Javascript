@@ -34,7 +34,7 @@ let sumZeroImproved = (arr) => {
   }
 };
 
-console.log(sumZeroNaive([-4, -3, -2, -1, 0, 1, 2]));
-console.log(sumZeroNaive([-4, -3, -2, -1, 0, 23]));
-console.log(sumZeroImproved([-4, -3, -2, -1, 0, 1, 2]));
-console.log(sumZeroImproved([-4, -3, -2, -1, 0, 23]));
+console.log(sumZeroNaive([-4, -3, -2, -1, 0, 1, 2])); // -> [ -2, 2 ]
+console.log(sumZeroNaive([-4, -3, -2, -1, 0, 23])); // -> undefined
+console.log(sumZeroImproved([-4, -3, -2, -1, 0, 1, 2])); // -> [ -2, 2 ]
+console.log(sumZeroImproved([-4, -3, -2, -1, 0, 23])); // -> undefined
