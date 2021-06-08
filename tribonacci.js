@@ -39,5 +39,4 @@ function tribonacci(signature, n) {
 }
 
 console.log(tribonacci([0, 0, 1], 8)); // [0, 0, 1,  1, 2, 4, 7, 13]
-]
 console.log(tribonacci([0, 1, 1], 8)); // [0, 1,  1,  2, 4, 7, 13, 24]
