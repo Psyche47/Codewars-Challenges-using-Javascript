@@ -38,5 +38,6 @@ function tribonacci(signature, n) {
   return n < 3 ? tribo.slice(0, n) : tribo;
 }
 
-console.log(tribonacci([0, 0, 1], 8));
-console.log(tribonacci([0, 1, 1], 8));
+console.log(tribonacci([0, 0, 1], 8)); // [0, 0, 1,  1, 2, 4, 7, 13]
+]
+console.log(tribonacci([0, 1, 1], 8)); // [0, 1,  1,  2, 4, 7, 13, 24]
